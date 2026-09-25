@@ -1,0 +1,16 @@
+generated: '2026-09-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://mysudo.com/
+sources:
+- https://mysudo.com/
+- https://anonyome.com/resources/blog/your-complete-guide-to-online-privacy/
+- https://anonyome.com/privacy-policy/
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: PCI-DSS Certified
+- id: soc2
+  conforms: true
+  evidence: SOC 2 Compliant
+docs: https://mysudo.com/

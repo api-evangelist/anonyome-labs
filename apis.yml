@@ -1,23 +1,80 @@
 aid: anonyome-labs
+
 name: Anonyome Labs
-description: 'Anonyome Labs is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://anonyome.com/wp-content/uploads/2024/04/woman-making-call-mysudo-1-jpg.webp
+
+description: 'Anonyome Labs provides identity protection solutions through its MySudo suite, offering tools such as password management, VPN, and secure digital identity for individuals and businesses. The platform enables developers to integrate identity protection via APIs and SDKs, supporting privacy, secure communications, and verifiable credentials across multiple industries.'
+
 url: https://raw.githubusercontent.com/api-evangelist/anonyome-labs/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-24'
+
 modified: '2026-09-24'
+
 tags:
 - Company
-apis: []
+- Identity
+- Privacy
+- Security
+- API
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/anonyome-labs-plans-pricing.yml
+- type: Conformance
+  url: conformance/anonyome-labs-conformance.yml
+- type: Hosts
+  url: hosts/anonyome-labs-hosts.yml
+- type: Vendors
+  url: vendors/anonyome-labs-vendors.yml
+- type: TermsOfService
+  url: https://anonyome.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://anonyome.com/privacy-policy/
+- type: Pricing
+  url: https://anonyome.com/pricing-plans-with-a-content-carousel/
+- type: Newsroom
+  url: https://anonyome.com/home/media/
+- type: Leadership
+  url: https://anonyome.com/team/jd-mumford/frame-1068-1/
+- type: Documentation
+  url: https://anonyome.com/resources/guides/
+- type: Blog
+  url: https://anonyome.com/resources/blog/
+- type: DomainSecurity
+  url: security/anonyome-labs-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://anonyome.com/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The developer documentation pages are rendered via JavaScript and no machine‑readable OpenAPI spec was found.
+  evidence:
+    - url: https://api.anonyome.com/openapi.json
+      status: 0
+  checked: 2026-09-25
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
