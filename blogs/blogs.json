@@ -1,0 +1,21 @@
+{
+  "repo": "anonyome-labs",
+  "feeds": [
+    {
+      "source": "https://anonyome.com/resources/guides/",
+      "feed_url": "https://anonyome.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://anonyome.com/feed/",
+      "feed_url": "https://anonyome.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 6,
+  "fetched": "2026-10-03T12:30:02Z"
+}
