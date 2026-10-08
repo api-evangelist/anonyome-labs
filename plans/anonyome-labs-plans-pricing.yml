@@ -85,3 +85,124 @@ plans:
   price: 149.99
   description: 9 Sudos • 9 numbers • 9 emails
 docs: https://anonyome.com/pricing-plans-with-a-content-carousel/
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: ESSENTIAL
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: EXPERT
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: STUDIO
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoFree
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoGo
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoPro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoMax
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoGo
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoPro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoMax
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoGo
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoPro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoMax
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoGo
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoPro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoMax
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoGo
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoPro
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: SudoMax
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
